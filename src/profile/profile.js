@@ -90,7 +90,7 @@ const Profile = (props) => {
           <div className="place-item__image">
             <img
               src={
-                "https://cdn.dribbble.com/users/299663/screenshots/3691201/benzema-01.jpg?compress=1&resize=400x300"
+                "https://image.flaticon.com/icons/png/512/912/912214.png"
               }
             />
           </div>
