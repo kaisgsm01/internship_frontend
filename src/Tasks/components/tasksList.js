@@ -8,7 +8,7 @@ const TasksList = (props) => {
     return (
       <div className="center">
         <Card>
-          <h2>No Clients Found.</h2>
+          <h2>No Tasks Found.</h2>
         </Card>
       </div>
     );
