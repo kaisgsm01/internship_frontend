@@ -25,6 +25,8 @@ const ClientsList = (props) => {
           image="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1711/faysalfarhan171147553/90450638-client-member-icon-isolated-on-yellow-round-button-abstract-illustration.jpg"
           linkedin={client.linkedin}
           phoneNumber={client.telephone}
+          facebook={client.facebook}
+          twitter={client.twitter}
           deleteClientHandler={props.deleteClientHandler}
         />
       ))}
