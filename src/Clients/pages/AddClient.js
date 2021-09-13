@@ -47,7 +47,7 @@ const AddClient = () => {
     event.preventDefault();
     try {
       const uid = auth.userID;
-      sendRequest(
+      await sendRequest(
         `http://localhost:5000/api/users/${uid}/clients`,
         "POST",
         JSON.stringify({
