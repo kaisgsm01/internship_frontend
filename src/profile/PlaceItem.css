@@ -12,6 +12,7 @@
 }
 
 .place-item__image {
+  margin-top: 1.5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
