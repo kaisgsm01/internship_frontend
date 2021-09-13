@@ -43,7 +43,7 @@ const AddClient = () => {
     false
   );
 
-  const placeSubmitHandler = (event) => {
+  const placeSubmitHandler = async (event) => {
     event.preventDefault();
     try {
       const uid = auth.userID;
